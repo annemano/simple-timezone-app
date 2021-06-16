@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 50vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 40%;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 90vw;
+  }
+  .card {
+    width: 100%;
+  }
+}
