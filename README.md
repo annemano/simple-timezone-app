@@ -30,7 +30,8 @@ When in the root of the project, run:
 This is new to me in Javascript. After some research I thought it would be best to use Jest (and supertest for endpoints) to run unit tests.
 With only two test files, I've decided not to group them in a separate folder (I read different opinions on this) for now.
 
-Issue I went through: Jest doesn't recognize "import" or "export" statements, but I have to use these for front-end JS files. I installed Babel to fix it.
-I also had to mock the DOM in order to test my JS functions, using JSDOM.
-Overall this is a topic I definitely want to learn more about - I wasn't able to test everything I wanted to. I feel like this would be easier if I had used a frontend framework?
+Issues I went through:
+- Jest doesn't recognize "import" or "export" statements, but I have to use these for front-end JS files. I installed Babel to fix it.
+- I also had to mock the DOM in order to test my JS functions, using JSDOM.
+Overall this is a topic I definitely want to learn more about - I wasn't able to test everything I wanted to because of the way my JS files are set up. I feel like this would be easier if I had used a frontend framework?
 
