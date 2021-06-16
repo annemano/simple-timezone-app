@@ -9,7 +9,7 @@ While I do believe that in order to be a scalable app, this would require a fron
 
 As for the backend, while I've learned Ruby on Rails during the bootcamp, I felt it was "overkill" for this type of simple app. I thought I'd be best served with Node.js and Express, and I built it following several tutorials/blog posts and adapting to my current project.
 
-In the end, my mindset was to keep it as simple as possible.
+In the end, my mindset was to keep it **as simple as possible**.
 
 ## How to run it
 When in the root of the project, run:
