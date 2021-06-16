@@ -1,4 +1,3 @@
-
 const express = require ('express');
 const path = require('path');
 
@@ -11,8 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/timezones', (req, res) => {
-  res.send( { city: 'Tokyo', timeZone: 'Japan' } );
+  res.json( { city: 'Tokyo', timeZone: 'Japan' } );
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`We are live on ${port}`));
+module.exports = app;
