@@ -33,5 +33,11 @@ With only two test files, I've decided not to group them in a separate folder (I
 Issues I went through:
 - Jest doesn't recognize "import" or "export" statements, but I have to use these for front-end JS files. I installed Babel to fix it.
 - I also had to mock the DOM in order to test my JS functions, using JSDOM.
-Overall this is a topic I definitely want to learn more about - I wasn't able to test everything I wanted to because of the way my JS files are set up. I feel like this would be easier if I had used a frontend framework?
+Overall this is a topic I definitely want to learn more about - I wasn't able to test everything I wanted to because of the way my JS files are set up. I feel like this would be easier if I had used a frontend framework like React?
+
+## Future Improvements
+- Use Docker (adding this [course](https://www.youtube.com/watch?v=fqMOX6JJhGo) to my list to start)
+- Use React for the front-end part
+- Implement a simple form so that a user can choose which city they want to have, and add up to X amount of cards (need a proper timezone api)
+- Change the background image according to the city and the current location
 
