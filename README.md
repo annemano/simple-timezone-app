@@ -16,6 +16,8 @@ When in the root of the project, run:
 - `npm install`
 - `npm start`
 
+It was also deployed on Heroku: [simple-timezone-app](https://simple-timezone-app.herokuapp.com/)
+
 ## Front-End
 I am using vanilla Javascript to set the current date and time, fetch the timezone name from the server, and send that information into the right cards in the HTML file.
 I have separated the JS functions in different files according to what they do, trying to avoid code duplication.
