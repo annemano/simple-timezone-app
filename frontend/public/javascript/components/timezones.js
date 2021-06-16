@@ -21,4 +21,4 @@ const browserTimeZone = (date) => {
   locationCard("Current Location", browserTime, browserTimeDiv);
 };
 
-export { browserTimeZone, fetchServerTimeZone }
+export { browserTimeZone, fetchServerTimeZone, serverTimeZone }

@@ -24,10 +24,13 @@ I have separated the JS functions in different files according to what they do, 
 Since there are only two routes, the root and the api, I put them all in one server file. But this could get messy quickly if the app grows and would recommend to separate into different route files and import into the server file.
 
 ## Testing
+When in the root of the project, run:
+- `npm test`
+
 This is new to me in Javascript. After some research I thought it would be best to use Jest (and supertest for endpoints) to run unit tests.
 With only two test files, I've decided not to group them in a separate folder (I read different opinions on this) for now.
 
-Issue I went through: Jest doesn't recognize "import" or "export" statements, but I have to use these for front-end JS files.
-When in the root of the project, run:
-- `npm test`
+Issue I went through: Jest doesn't recognize "import" or "export" statements, but I have to use these for front-end JS files. I installed Babel to fix it.
+I also had to mock the DOM in order to test my JS functions, using JSDOM.
+Overall this is a topic I definitely want to learn more about - I wasn't able to test everything I wanted to. I feel like this would be easier if I had used a frontend framework?
 
