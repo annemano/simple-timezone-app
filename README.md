@@ -16,6 +16,10 @@ When in the root of the project, run:
 - `npm install`
 - `npm start`
 
+and open `localhost:3000`
+
+Or with Docker: `docker run -p 8888:3000 annemano/simple-timezone-app` and open `localhost:8888`
+
 It was also deployed on Heroku: [simple-timezone-app](https://simple-timezone-app.herokuapp.com/)
 
 ## Front-End
