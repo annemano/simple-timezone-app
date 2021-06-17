@@ -45,8 +45,9 @@ Overall this is a topic I definitely want to learn more about - I wasn't able to
 I also didn't figure out how to test the actual window/screen - I feel like this would be easier if I had used a frontend framework like React?
 
 ## Future Improvements
-- Use Docker (adding this [course](https://www.youtube.com/watch?v=fqMOX6JJhGo) to my list to start, happy to receive recommendations)
 - Use React for the front-end part
 - Implement a simple search form so that a user can choose which city they want to have, and add up to X amount of cards (need a proper timezone api)
 - Change the background image according to the city and the current location
+
+Also, I want to learn more about Docker (adding this [course](https://www.youtube.com/watch?v=fqMOX6JJhGo) to my list to start, happy to receive recommendations)
 
