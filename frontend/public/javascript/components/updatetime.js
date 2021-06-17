@@ -1,4 +1,5 @@
-import { fetchServerTimeZone, browserTimeZone } from "./timezones.js"
+import { browserTimeZone } from "./localtimezone.js"
+import { fetchServerTimeZone } from "./fetchtimezone.js"
 
 const updateTime = () => {
   const date = new Date();
