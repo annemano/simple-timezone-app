@@ -5,11 +5,11 @@ const app = express();
 
 app.use('/public', express.static(path.join(__dirname, "..", "frontend", "public")));
 
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
   res.sendFile(path.resolve(__dirname, "..", "frontend", "index.html"));
 });
 
-app.get('/api/timezones', (req, res) => {
+app.get('/api/timezones', (_req, res) => {
   res.json( { city: 'Tokyo', timeZone: 'Japan' } );
 });
 
