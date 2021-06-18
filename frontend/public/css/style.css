@@ -41,6 +41,14 @@ p {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.browser {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1504386106331-3e4e71712b38');
+}
+
+.server {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1513407030348-c983a97b98d8');
+}
+
 @media screen and (max-width: 800px) {
   h2 {
     font-size: 32px;
