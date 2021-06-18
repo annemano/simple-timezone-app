@@ -18,7 +18,7 @@ When in the root of the project, run:
 
 and open `localhost:3000`
 
-Or with Docker: `docker run -p 8888:3000 annemano/simple-timezone-app` and open `localhost:8888`
+Or with Docker: `docker run -p 8888:3000 annemano/simple-timezone-app` and open `localhost:8888` *(disclaimer: first time setting something like this)*
 
 It was also deployed on Heroku: [simple-timezone-app](https://simple-timezone-app.herokuapp.com/)
 
@@ -47,6 +47,7 @@ I also didn't figure out how to test the actual window/screen - I feel like this
 
 ## Future Improvements
 - Use React for the front-end part
+- Fully test the app with a react testing library
 - Implement a simple search form so that a user can choose which city they want to have, and add up to X amount of cards (need a proper timezone api)
 - Change the background image according to the city and the current location
 
